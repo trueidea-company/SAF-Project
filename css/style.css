@@ -1443,6 +1443,9 @@ p {
     font-family: var(--thm-font);
     font-weight: 500;
 }
+.header-pages .header-bottom .header-btns li a.media{
+    line-height: 17px;
+}
 .header-pages .header-bottom .header-btns li.item-new{
     margin-top: 8px;
 }
@@ -2354,4 +2357,415 @@ p {
     font-family: var(--thm-font);
     font-size: 15px;
     width: 135px;
+}
+/* =================================================================================================
+                                                 programs-page
+====================================================================================================*/
+.programs-page{
+    background: #f5f5f5;
+    height: auto;
+    width: 100%;
+}
+.programs-image{
+    width: 50%;
+    margin: auto;
+}
+.programs-page .programs-image h3{
+    font-family: var(--thm-font);
+    font-size: 35px;
+    color: #117ba7;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.programs-page .programs-image img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 35px;
+}
+.programs-page .programs-details .card{
+    border: none;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+.programs-page .programs-details .card .card-header{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 53px;
+    padding: 0px;
+    border: none;
+    box-shadow: 1px 1px 4px 0px #a9a9a9;
+}
+.programs-page .programs-details .card .card-header .nav-tabs{
+    border: none;
+}
+.programs-page .programs-details .card .card-header .nav-tabs .nav-item{
+    width: calc(100% / 4);
+    text-align: center;
+    position: relative;
+}
+.programs-page .programs-details .card .card-header .nav-tabs .nav-link{
+    color: #117ba7;
+    font-family: var(--thm-font);
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.programs-page .programs-details .card .card-header .nav-tabs .nav-item.show .nav-link, 
+.programs-page .programs-details .card .card-header .nav-tabs .nav-link.active{
+    background: #117ba7;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 17px;
+}
+.programs-page .programs-details .tab-content{
+    width: 100%;
+    margin: auto;
+}
+.programs-page .programs-details .tab-content .tab-pane p{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #1366a0;
+    text-align: right;
+    width: 70%;
+    margin: 0px 10% 25px;
+}
+.programs-page .programs-details .tab-content .tab-pane .card .card-header{
+    width: 30%;
+    margin: auto;
+    background: #fff;
+    border-radius: 53px;
+    padding: 0px;
+    border: none;
+    box-shadow: 1px 1px 4px 0px #a9a9a9;
+}
+.programs-page .programs-details .tab-pane .card .card-header .nav-tabs {
+    border: 2px solid #1366a6;
+    border-radius: 30px;
+}
+.programs-page .tab-content .tab-pane .card .card-header .nav-tabs .nav-item{
+    width: calc(100% / 2);
+}
+.programs-page .tab-content .tab-pane .card .card-header .nav-tabs .nav-link {
+    font-size: 13px;
+    padding: 0.5rem 10px;
+}
+.programs-page .tab-content .tab-pane .card .card-header .nav-tabs .nav-link.active {
+    border-radius: 50px 0 0 50px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs{
+    background: #fff;
+    width: 90%;
+    margin: 50px auto 30px;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 1px 1px 3px 0px #e1dede;
+}
+
+.programs-page .tab-content .tab-pane .card .all-programs img{
+    height: 380px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail{
+    margin-top: 110px;
+    margin-right: 50px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail h3{
+    background: #e1ba36;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: var(--thm-font);
+    color: #fff;
+    width: 149px;
+    height: 40px;
+    line-height: 38px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail p{
+    font-size: 15px;
+    font-family: var(--thm-font);
+    color: #6b6b6b;
+    line-height: 28px;
+    text-align: right;
+    width: 85%;
+    margin: 0px 0% 25px 0;
+}
+.programs-page .tab-content .tab-pane .card .all-programs.second .program-detail {
+    margin-top: 52px;
+    margin-right: 10px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs.second .program-detail p{
+    width: 95%;
+    line-height: 24px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail span{
+    font-size: 15px;
+    font-family: var(--thm-font);
+    color: #083750;
+    line-height: 28px;
+    text-align: center;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail form{
+    width: 85%;
+    margin: auto;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail .input-group{
+    border: 2px solid #e1ba36;
+    border-radius: 30px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail input{
+    background: #fff;
+    height: 43px;
+    color: #848484;
+    border: none;
+    margin-right: 20px;
+    box-shadow: none;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail input::placeholder{
+    color: #848484;
+    font-size: 14px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail button{
+    border: 2px solid #e1ba36;
+    border-radius: 30px 0 0 30px;
+    background: #e1ba36;
+    height: 43px;
+    color: #fff;
+    font-family: var(--thm-font);
+    font-size: 15px;
+    width: 135px;
+}  
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail  .progress{
+    height: 9px;
+    background-color: #117ba7;
+    border-radius: 50px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 1px 2px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs .program-detail .progress-bar{
+    background: #fff;
+    height: 6px;
+    border-radius: 30px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs.third .program-detail {
+    margin-top: 52px;
+    margin-right: 10px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs.third .program-detail h3{
+    background: #e1ba36;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: var(--thm-font);
+    color: #fff;
+    width: 241px;
+    height: 40px;
+    line-height: 38px;
+}
+.programs-page .tab-content .tab-pane .card .all-programs.third .program-detail p{
+    font-size: 11px;
+    font-family: var(--thm-font);
+    color: #6b6b6b;
+    text-align: right;
+    width: 95%;
+    line-height: 20px;
+    margin: 0px 0% 15px 0;
+}
+/* =================================================================================================
+                                                 membership-page
+====================================================================================================*/
+.membership-page{
+    background: #f5f5f5;
+    height: auto;
+    width: 100%;
+}
+.programs-image{
+    width: 50%;
+    margin: auto;
+}
+.membership-page .member-title{
+    margin-top: 50px;
+}
+.membership-page .member-title h2{
+    font-family: var(--thm-font);
+    font-size: 43px;
+    color: #1366a0;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.membership-page .member-title h3{
+    font-family: var(--thm-font);
+    font-size: 25px;
+    color: #1367a7;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.membership-page .member-title ul li {
+    list-style: disc;
+    color: #c5a233;
+    font-size: 29px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+.membership-page .member-title ul li h5{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #0b385d;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.membership-page .programs-image img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 35px;
+}
+.membership-page .affiliate-member{
+    background:#eceff1 ;
+    position: relative;
+    height: auto;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+.membership-page .affiliate-member img{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 30px 30px 0 0;
+}
+.membership-page .affiliate-member .affiliate-img{
+    position: absolute;
+    top: 140px;
+    right: 35px;
+}
+.membership-page .affiliate-member h5{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    font-family: var(--thm-font);
+}
+.membership-page .affiliate-member .up-one{
+    background: none;
+    width: 49px;
+    position: absolute;
+    height: 48px;
+    left: 26px;
+    top: 20px;
+}
+.membership-page .affiliate-member .up-two {
+    background: none;
+    width: 77px;
+    position: absolute;
+    height: 50px;
+    left: 9px;
+    top: 22px;
+}
+ .membership-page .affiliate-member p{ 
+    font-size: 15px;
+    width: 80%;
+    color: #fff;
+    position: relative;
+    line-height: 27px;
+    font-family: var(--thm-font);
+} 
+.membership-page .affiliate-member .what-have{
+    position: relative;
+    background: #fff;
+    border-radius:0 0 50px 50px;
+    padding: 25px 35px 50px; 
+    height: 390px;
+}
+.membership-page .affiliate-member h6{
+    font-size: 22px;
+    color: #1366a0;
+    position: relative;
+    font-family: var(--thm-font);
+    margin-bottom: 10px;
+}
+.membership-page .what-have h6.not{
+    margin-top: 55px;
+}
+.membership-page .affiliate-member ul li{
+    list-style: disc;
+    color: #c5a233;
+    font-size: 24px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+.membership-page .affiliate-member ul li h5{
+    font-family: var(--thm-font);
+    font-size: 14px;
+    color: #083750;
+    text-align: right;
+    margin-bottom: 3px;
+}
+.membership-page .affiliate-member a{
+    background: #1366a0;
+    padding: 12px 39px;
+    border-radius: 8px;
+    margin: 0 34%;
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--thm-font);
+}
+.membership-page .affiliate-member a i{
+    padding-right: 6px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.membership-page .advantag{
+    background:#eceff1 ;
+    margin:60px 0 50px ;
+    border-radius: 0 0 50px 50px;
+    padding-bottom: 80px;
+}
+.membership-page .advantag h4{
+    font-family: var(--thm-font);
+    font-size: 30px;
+    color: #0c3750;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.membership-page .advantag li img{
+    background: none;
+}
+.membership-page .advantag ul{margin-bottom: 30px;}
+.membership-page .advantag ul li {
+    list-style: none;
+    font-size: 24px;
+    padding-top: 0px;
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-left: 1%;
+    height: 150px;
+}
+.membership-page .advantag ul li img{
+    width: 45px;
+    margin: 35px auto 10px;
+    border-radius: 0;
+}
+.membership-page .advantag ul li p{
+    font-family: var(--thm-font);
+    font-size: 13px;
+    color: #0c3750;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 63%;
+    margin: auto;
+}
+.membership-page .advantag ul li.five p{
+    width: 88%;
+}
+.membership-page .advantag ul li.seven p{
+    width: 90%;
+}
+.membership-page .advantag ul li.six{
+    margin-top: -50px;
+}
+.membership-page .advantag ul li.six img,
+.membership-page .advantag ul li.five img.six{
+    width: 35px;
 }
