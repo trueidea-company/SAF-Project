@@ -253,7 +253,7 @@ p {
 .header-bottom .header-btns li a.projects,
 .header-bottom .header-btns li a.what,
 .header-bottom .header-btns li a.comm{
-    background: linear-gradient(to bottom , #416578 , #254e64 );
+    background: linear-gradient(to bottom , transparent , #254e64 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 13px;
@@ -269,7 +269,7 @@ p {
     height: 26px;
 }
 .header-bottom .header-btns li a.new{
-    background: linear-gradient(to bottom , #416578 , #254e64 );
+    background: linear-gradient(to bottom ,transparent , #254e64 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 16px;
@@ -506,7 +506,7 @@ p {
 .slider-content .slider-content-text a{
     color: #fff;
     font-size: 16px;
-    padding: 5px 21px;
+    padding: 0px 30px;
     border: 2px solid #e0b936;
     border-radius: 30px;
     margin-left: 18px;
@@ -564,7 +564,7 @@ p {
 }
 .slider-details .slider-details-content .detail-content{
     position: relative;
-    background: linear-gradient(to bottom , #083750 ,#345a6f , #3f728f, #597d91);
+    background: linear-gradient(to bottom , transparent ,#345a6f , #3f728f, #597d91);
     width: 212px;
     height: 90px;
     border-radius: 30px;
@@ -618,7 +618,7 @@ p {
     margin-top: 55px;
 }
 .about .about-text h6{
-    background: linear-gradient(to bottom , #3a6881 , #337497 );
+    background: linear-gradient(to bottom , transparent , #337497 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 17px;
@@ -648,7 +648,7 @@ p {
     border: 1px solid #a8983c;
     border-radius: 30px;
     font-size: 13px;
-    padding: 6px 19px;
+    padding: 0px 22px;
     color: #cbd3d7;
 }
 /* ===========================================================================
@@ -665,18 +665,21 @@ p {
 }
 .after-about span.span-back {
     position: absolute;
-    top: 30%;
-    right: 5%;
+    top: 36%;
+    right: 6%;
     width: auto;
     margin: auto;
 }
 .after-about span.span-back img {
     width: 45px;
-    height: 305px;
+    height: auto;
+}
+.after-about .icon-box-after{
+    margin-top: 70px;
 }
 .after-about .after-icon{
     width: 100%;
-    height: 125px;
+    height: 100px;
     display: flex;
     align-items: center;
 }
@@ -687,14 +690,29 @@ p {
     height: 100%;
     background-position: center;
     transform: scale(0.75);
+    border-radius: 50%;
+    width: 110px;
+    height: 99px;
 }
 .after-about .after-icon .right-icon .icon-back{
     position: absolute;
     width: auto;
     height: auto;
-    right: 34%;
+    right: 36%;
     left: auto;
-    top: 43px;
+    top: 26px;
+}
+.after-about .after-icon:nth-child(1) .right-icon .icon-back{
+    right: 26%;
+    top: 19px;
+}
+.after-about .after-icon:nth-child(2) .right-icon .icon-back{
+    right: 26%;
+    top: 23px;
+}
+.after-about .after-icon:nth-child(3) .right-icon .icon-back{
+    right: 26%;
+    top: 23px;
 }
 .after-about .after-icon .left-icon{
     width: 70%;
@@ -751,7 +769,7 @@ p {
     border: 1px solid #a8983c;
     border-radius: 30px;
     font-size: 12px;
-    padding: 3px 15px;
+    padding: 0px 27px;
     color: #083750;
     font-family: var(--thm-font);
     margin-top: 15px;
@@ -817,7 +835,7 @@ p {
 }
 .statistics .statis-text{margin-right: 30px;}
 .statistics .statis-text h6{
-    background: linear-gradient(to bottom , #3a6881 , #337497 );
+    background: linear-gradient(to bottom ,transparent  , #337497 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 17px;
@@ -1027,7 +1045,7 @@ p {
     padding: 180px 0 90px;
  }
 .programs .title h5{
-    background: linear-gradient(to bottom , #3a6881 , #337497 );
+    background: linear-gradient(to bottom ,transparent  , #337497 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 16px;
@@ -1132,7 +1150,7 @@ p {
     padding: 180px 0 130px;
  }
 .news .title h5{
-    background: linear-gradient(to bottom , #3a6881 , #337497 );
+    background: linear-gradient(to bottom ,transparent , #337497 );
     border: none;
     box-shadow: 1px 1px 4px 0px #38637a;
     font-size: 16px;
