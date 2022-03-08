@@ -179,13 +179,13 @@ p {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #59bcc6; 
+    background: #117ba7; 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #59bcc6; 
+    background: #117ba7; 
   }
 /* ------------------------------------------------------
                       Slider
@@ -1409,29 +1409,37 @@ p {
 ====================================================================================================*/
 .header-pages{
     background: #fff;
-    height: 195px;
+    height: 160px;
     box-shadow: 1px 1px 4px 0px #a9a9a9;
 }
 .header-pages .navbar-expand-lg .navbar-collapse{
     flex-wrap: wrap;
-    margin-top: 45px;
+    margin-top: 0px;
 }
 .header-pages .last-list{
     margin-top: 15px;
 }
 .header-pages .navbar .nav__item .nav__item-link.contact {
     color: #fff;
-    font-size: 14px;
-    padding: 3px 21px;
+    font-size: 13px;
+    padding: 3px 16px;
     border-radius: 30px;
     background: #e1ba36;
-    margin-left: 8px;
+    margin-left: 0px;
     font-family: var(--thm-font);
 }
 .header-pages .header-multi-icon li img.facebook {
     width: 20px;
     height: 20px;
     padding-right: 10px;
+}
+.header-pages .header-btns li a.cart {
+    border: none;
+    padding: 0;
+    line-height: 12px;
+    margin-left: 0px;
+    color: #d8b538;
+    font-family: var(--thm-b-font);
 }
 .header-pages .header-multi-icon li img.twitter,
 .header-pages .header-multi-icon li img.insta,
@@ -1456,7 +1464,7 @@ p {
     box-shadow: none;
     color: #1366a0;
     font-size: 15px;
-    padding: 0px 12px 3px;
+    padding: 0px 5px 3px;
     line-height: 31px;
     font-family: var(--thm-font);
     font-weight: 500;
@@ -1489,6 +1497,11 @@ p {
 .header-pages .header-bottom .last-list li .search-img{
     width: 23px;
     margin-top: -4px;
+}
+.header-pages .navbar-brand img {
+    width: 230px;
+    height: 68px;
+    margin-top: 0px;
 }
 .contact-us-page{
     background: #f5f5f5;
@@ -2786,4 +2799,519 @@ p {
 .membership-page .advantag ul li.six img,
 .membership-page .advantag ul li.five img.six{
     width: 35px;
+}
+/*==================================================================================================
+                                           programs-page
+====================================================================================================*/
+.autism-page{
+    background: #f5f5f5;
+    height: auto;
+    width: 100%;
+}
+.autism-page .autism-image{
+    width: 50%;
+    margin: auto;
+}
+.autism-page .autism-image h3{
+    font-family: var(--thm-font);
+    font-size: 35px;
+    color: #117ba7;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.autism-page .autism-image img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 35px;
+}
+.autism-page .autism-details .card{
+    border: none;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+.autism-page .autism-details .card .card-header{
+    width: 75%;
+    margin: auto;
+    background: #fff;
+    border-radius: 53px;
+    padding: 0px;
+    border: none;
+    box-shadow: 1px 1px 4px 0px #a9a9a9;
+}
+.autism-page .autism-details .card .card-header .nav-tabs{
+    border: none;
+}
+.autism-page .autism-details .card .card-header .nav-tabs .nav-item{
+    width: calc(100% / 5);
+    text-align: center;
+    position: relative;
+}
+.autism-page .autism-details .card .card-header .nav-tabs .nav-link{
+    color: #117ba7;
+    font-family: var(--thm-font);
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.autism-page .autism-details .card .card-header .nav-tabs .nav-item.show .nav-link, 
+.autism-page .autism-details .card .card-header .nav-tabs .nav-link.active{
+    background: #117ba7;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 17px;
+}
+.autism-page .autism-details .tab-content{
+    width: 100%;
+    margin: auto;
+}
+.autism-page .autism-details .tab-content .tab-pane h4{
+    font-family: var(--thm-font);
+    font-size: 34px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 37px 0% 31px;
+}
+.autism-page .autism-details .tab-content .tab-pane p{
+    font-family: var(--thm-font);
+    font-size: 16px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 26px;
+    width: 100%;
+    margin: 0px 0% 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane img{
+    width: 100%;
+    margin-top: 25px;
+    height: 500px;
+}
+.autism-page .autism-details .tab-content .tab-pane .au-break{
+    width: 50%;
+    margin: 50px auto;
+    background: #b5b2b2;
+    height: 2px;
+    position: relative;
+    display: block;
+}
+.autism-page .autism-details .tab-content .tab-pane img.second-image {
+    height: auto;
+    border-radius: 50px;
+}
+.autism-page .autism-details .tab-content .tab-pane h6{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #545454;
+    text-align: right;
+    width: 100%;
+    margin: 55px 0% 23px;
+}
+.autism-page .autism-details .tab-content .tab-pane ul li{
+    display: flex;
+}
+.autism-page .autism-details .tab-content .tab-pane ul li img{
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane ul li h5{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #787878;
+    text-align: right;
+    width: 100%;
+    margin: 15px 0% 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane p.pargraph{
+    font-family: var(--thm-font);
+    font-size: 16px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 26px;
+    width: 100%;
+    margin: 30px 0% 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-one h4{
+    font-family: var(--thm-font);
+    font-size: 24px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 0px 0px 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-one p{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 29px;
+    width: 100%;
+    margin: 0px 0% 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-one ul{
+    margin-right: 10%;
+    width: 80%;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-one h6{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 30px 25px 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane ul li h5{
+    font-size: 17px;
+    line-height: 30px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-two p{
+    font-family: var(--thm-font);
+    font-size: 17px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 29px;
+    width: 91%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-block {
+    width: 90%;
+    margin: 50px auto;
+    background: #148dbf;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: right;
+    position: relative;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-block h5{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #117ba7;
+    background: #f5f5f5;
+    text-align: center;
+    width: 192px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px 0% 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-block p{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #f5f5f5;
+    text-align: right;
+    line-height: 29px;
+    width: 97%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-block a{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #ffffff;
+    background: #e1ba36;
+    text-align: center;
+    width: 174px;
+    padding: 7px 14px;
+    border-radius: 50px;
+    margin: 15px 0% 15px;
+    position: absolute;
+    left: 66px;
+    bottom: -36px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know{
+    width: 92%;
+    margin: auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know h3{
+    font-family: var(--thm-font);
+    font-size: 38px;
+    color: #117ba7;
+    text-align: center;
+    width: 100%;
+    margin: 15px auto 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-1,
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-2{
+    border: 1px solid #e1ba36;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 50px 20px 30px;
+    height: 265px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-1 img,
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-2 img{
+    width: 40px;
+    height: 45px;
+    margin-bottom: 19px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-2 h2{
+    font-family: var(--thm-font);
+    font-size:53px;
+    color: #e1ba36;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-1 p{
+    color: #118cbf;
+    font-size: 22px;
+    text-align: center;
+    line-height: 31px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-2 p{
+    color: #118cbf;
+    font-size: 21px;
+    text-align: center;
+    line-height: 25px;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-1 h6{
+    color: #118cbf;
+    font-size: 27px;
+    text-align: center;
+    line-height: 43px;
+    width: 85%;
+    margin: 10px auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .autism-Know .know-1 h6 span{
+    color: #e1ba36;
+    font-size: 42px;
+    vertical-align: middle;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail,
+.autism-page .autism-details .tab-content .tab-pane .digno-image{
+    margin-top: 50px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail h4{
+    color: #118cbf;
+    font-size: 25px;
+    text-align: right;
+    line-height: 31px;
+    width: 85%;
+    margin: 10px auto 5px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail h5{
+    color: #118cbf;
+    font-family: var(--thm-font);
+    font-size: 20px;
+    text-align: right;
+    line-height: 33px;
+    width: 93%;
+    margin: 15px 7% 9px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail p{
+    font-family: var(--thm-font);
+    color: #5e5e5e;
+    font-size: 17px;
+    text-align: right;
+    line-height: 31px;
+    width: 100%;
+    margin: 0px 7% 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail h6 {
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #545454;
+    text-align: right;
+    width: 100%;
+    margin: 25px 7% 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail h5.last{
+    color: #118cbf;
+    font-family: var(--thm-font);
+    font-size: 17px;
+    text-align: right;
+    line-height: 27px;
+    width: 88%;
+    margin: 15px 7% 9px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail ul li{
+    display: flex;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail ul li img{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.autism-page .autism-details .tab-content .tab-pane .dignos-detail ul li h5{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #787878;
+    text-align: right;
+    width: 90%;
+    margin: 5px 2% 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .digno-image img{
+    margin-top: 0;
+    height: auto;
+    width: 94%;
+}
+.autism-page .autism-details .tab-content .tab-pane .middle{
+    width: 88%;
+    margin: 0px 7% 20px 0;
+}
+.autism-page .autism-details .tab-content .tab-pane .middle p{
+    font-family: var(--thm-font);
+    color: #5e5e5e;
+    font-size: 17px;
+    text-align: right;
+    line-height: 31px;
+    width: 100%;
+    margin: 0px 0px 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .middle ul li{
+    list-style: disc;
+    display: list-item;
+    margin-right: 2%;
+}
+.autism-page .autism-details .tab-content .tab-pane .middle ul li h5{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #787878;
+    text-align: right;
+    width: 90%;
+    margin: 5px 0px 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction {
+    width: 85%;
+    margin: auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction h4{
+    color: #118cbf;
+    font-size: 25px;
+    text-align: right;
+    line-height: 31px;
+    width: 85%;
+    margin: 10px auto 5px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction p{
+    color: #118cbf;
+    font-family: var(--thm-font);
+    font-size: 18px;
+    text-align: right;
+    line-height: 33px;
+    width: 93%;
+    margin: 15px 7% 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction img{
+    margin-top: 0;
+}
+.autism-page .autism-details .tab-content .tab-pane .left-inter p{
+    color: #118cbf;
+    font-family: var(--thm-font);
+    font-size: 17px;
+    text-align: right;
+    line-height: 33px;
+    width: 96%;
+    margin: 0px 13% 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .right-inter p{
+    color: #5e5e5e;
+    font-family: var(--thm-font);
+    font-size: 17px;
+    text-align: right;
+    line-height: 31px;
+    width: 95%;
+    margin: 0px 4% 13px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction{
+    margin-top: 50px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact h3{
+    color: #118cbf;
+    font-size: 20px;
+    text-align: right;
+    line-height: 31px;
+    width: 85%;
+    margin: 10px auto 5px;
+    font-family: var(--thm-font);
+}
+.autism-page .autism-details .tab-content .tab-pane .interact h4{
+    font-family: var(--thm-font);
+    font-size: 26px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 37px 0% 16px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact p {
+    font-size: 16px;
+    line-height: 31px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact img{
+    margin-top: 38px;
+}
+.autism-page .autism-details .tab-content .tab-pane  img.inter-mid{
+    margin-top: 0;
+    height: 350px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-middle{
+    margin-top: 80px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-middle h4{
+    font-size: 28px;
+    margin: 25px 0;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-middle p{
+    font-size: 18px;
+    line-height: 35px;
+    width: 92%;
+}
+.autism-page .autism-details .tab-content .tab-pane  img.inter-late{
+    margin-top: 0;
+    height: 450px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-late{
+    margin-top: 30px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-late h4{
+    font-size: 30px;
+    margin: 25px 0;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-late p{
+    font-size: 17px;
+    line-height: 35px;
+    width: 92%;
+}
+.autism-page .autism-details .tab-content .tab-pane  img.inter-last{
+    margin-top: 0;
+    height: 400px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-last{
+    margin-top: 0px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-last h4{
+    font-size: 30px;
+    margin: 10px 0 8px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-last p{
+    font-size: 17px;
+    line-height: 27px;
+    width: 92%;
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-last h5{
+    font-size: 17px;
+    margin: 20px 0;
+    text-align: right;
+    margin-bottom: 5px;
+    color: #117ba7;
+    font-family: var(--thm-font);
+}
+.autism-page .autism-details .tab-content .tab-pane .interact-last ul li h5{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #787878;
+    text-align: right;
+    width: 90%;
+    margin: 10px 0px 5px;
+}
+.autism-page .autism-details .tab-content .tab-pane .interaction-par {
+    font-size: 17px;
+    line-height: 35px;
+    width: 85%;
+    margin-top: 20px;
+    margin-right: 7%;
 }
