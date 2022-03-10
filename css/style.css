@@ -3315,3 +3315,446 @@ p {
     margin-top: 20px;
     margin-right: 7%;
 }
+.autism-page .autism-details .tab-content .tab-pane .quesion-all{
+    margin-top: 50px;
+    width: 90%;
+    margin-right: 7%;
+}
+.autism-page .autism-details .tab-content .tab-pane .quesion-all h4{
+    font-family: var(--thm-font);
+    font-size: 34px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 37px 0% 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .quesion-all p{
+    line-height: 33px;
+    width: 90%;
+} 
+.autism-page .autism-details .tab-content .tab-pane .flow > * + * { /* Adds space to all direct children except the 1st */
+    margin-top: 0.75rem;
+}
+.autism-page .autism-details .tab-content .tab-pane .accordion__item {
+    box-shadow:  0 10px 50px #eee;
+    border-radius: 26px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+/* Accordion Trigger */
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--trigger {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0.75rem 20px;
+    background: #158ec1;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%), 0 2px 3px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    font-family: var(--thm-font);
+}
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--trigger::after {
+        content: '+';
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: block;
+        margin-left: 0.75rem;
+}
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--trigger[aria-expanded="true"]::after {
+        content: '-';
+    }
+
+/* Accordion Panel */
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--panel {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    background-color: #fff;
+    
+    border-radius: 25px;
+}
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--panel > p {
+        margin: 0;
+        font-size: 18px;
+        font-family: var(--thm-font);
+        color: #5e5e5e;
+    }
+.autism-page .autism-details .tab-content .tab-pane .accordion__item--trigger[aria-expanded="true"] + .accordion__item--panel {
+    height: auto;
+    opacity: 1;
+    padding: 30px 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail,
+.autism-page .autism-details .tab-content .tab-pane .behavior-image{
+    margin-top: 60px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-image img,
+.autism-page .autism-details .tab-content .tab-pane .behavior-image2 img{
+    margin-top: 0;
+    height: auto;
+    width: 85%;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-image2{
+    margin-top: 0;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail h4{
+    color: #118cbf;
+    font-size: 33px;
+    text-align: right;
+    line-height: 31px;
+    width: 85%;
+    margin: 10px auto 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail p{
+    font-family: var(--thm-font);
+    color: #5e5e5e;
+    font-size: 17px;
+    text-align: right;
+    line-height: 31px;
+    width: 100%;
+    margin: 0px 7% 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail h6 {
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #545454;
+    text-align: right;
+    width: 100%;
+    margin: 25px 7% 15px;
+}
+
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail ul li{
+    display: flex;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail ul li img{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail ul li p{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #5e5e5e;
+    text-align: right;
+    width: 90%;
+    margin: 5px 2% 0px;
+    line-height: 32px;
+}
+.autism-page .autism-details .tab-content .tab-pane .behavior-detail2 p{
+    font-family: var(--thm-font);
+    color: #5e5e5e;
+    font-size: 17px;
+    text-align: right;
+    line-height: 31px;
+    width: 100%;
+    margin: 0px 0px 15px;
+}  
+/*==================================================================================================
+                                           association-page
+====================================================================================================*/
+.autism-page .who-page .card .card-header {
+    width: 80%;
+} 
+.autism-page .who-page .card .card-header .nav-tabs .nav-link,
+.autism-page .who-page .card .card-header .nav-tabs .nav-item.show .nav-link, 
+.autism-page .who-page .card .card-header .nav-tabs .nav-link.active{
+    padding: 10px;
+    font-size: 16px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-us{
+    width: 90%;
+    margin: 50px auto 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-us h4{
+    font-family: var(--thm-font);
+    font-size: 24px;
+    color: #117ba7;
+    text-align: right;
+    width: 100%;
+    margin: 0px 0px 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-us p{
+    font-family: var(--thm-font);
+    font-size: 17px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 29px;
+    width: 98%;
+    margin: 0px 0 30px;
+}
+.autism-page .who-page .tab-content .tab-pane img.first-image {
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat {
+    width: 90%;
+    margin: 50px auto;
+    background: #148dbf;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: right;
+    position: relative;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat h5{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #117ba7;
+    background: #f5f5f5;
+    text-align: center;
+    width: 192px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px 0% 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat p{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #f5f5f5;
+    text-align: right;
+    line-height: 29px;
+    width: 97%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat a{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #ffffff;
+    background: #e1ba36;
+    text-align: center;
+    width: 174px;
+    padding: 7px 14px;
+    border-radius: 50px;
+    margin: 15px 0% 15px;
+    position: absolute;
+    left: 66px;
+    bottom: -36px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat ul li{
+    width: 49%;
+    padding-bottom: 5px;
+    align-items: center;
+    display: inline-flex;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat ul li img{
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: 13px;
+    filter: brightness(3%) invert(1);
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat ul li h5{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #f5f5f5;
+    text-align: right;
+    width: 100%;
+    margin: 0 0;
+    background: none;
+    display: inline;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-message{
+    background: #fff;
+    border-radius: 50px;
+    width: 109%;
+    margin: 30px -5% 50px;
+    padding:20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-message .left-message{
+    border-right: 2px solid #117ba7;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-message h5{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #f5f5f5;
+    background: #117ba7;
+    text-align: center;
+    width: 145px;
+    padding: 9px 0px;
+    border-radius: 50px;
+    margin: 15px auto 25px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-message p{
+    font-family: var(--thm-font);
+    font-size: 15px;
+    color: #222429;
+    text-align: center;
+    line-height: 28px;
+    width: 69%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-message h2{
+    font-family: var(--thm-font);
+    font-size: 26px;
+    color: #117ba7;
+    text-align: center;
+    line-height: 34px;
+    width: 46%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-ul li{
+    align-items: flex-start;
+}
+.autism-page .autism-details .tab-content .tab-pane .who-associat .associat-ul li img{
+    margin-top: 17px;
+}
+.autism-page .autism-details .tab-content .tab-pane .values{
+    width: 55%;
+    margin: auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .values h4{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #f5f5f5;
+    background: #117ba7;
+    text-align: center;
+    width: 260px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px 95px 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .values ul li {
+    display: inline-flex;
+    align-items: self-end;
+    width: 47%;
+    flex-direction: row;
+    margin-right: 2%;
+}
+.autism-page .autism-details .tab-content .tab-pane .values ul li:last-child{
+    float: right;
+}
+.autism-page .autism-details .tab-content .tab-pane .values ul li h5 {
+    font-size: 17px;
+    line-height: 24px;
+    color: #117ba7;
+}
+.autism-page .autism-details .tab-content .tab-pane .p-value {
+    font-family: var(--thm-font);
+    font-size: 17px;
+    color: #5e5e5e;
+    text-align: right;
+    line-height: 32px;
+    width: 86%;
+    margin: 28px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .associat-team{
+    width: 55%;
+    margin: auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .associat-team h4{
+    font-family: var(--thm-font);
+    font-size: 20px;
+    color: #f5f5f5;
+    background: #117ba7;
+    text-align: center;
+    width: 165px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px auto 15px;
+}
+.autism-page .autism-details .tab-content .tab-pane .associat-team ul li {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    margin-right: 8%;
+    margin-top: 5px;
+}
+.autism-page .autism-details .tab-content .tab-pane .associat-team ul li h5 {
+    font-size: 21px;
+    line-height: 32px;
+    color: #117ba7;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message{
+    text-align: center;
+    width: 90%;
+    margin:50px auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message h4{
+    font-family: var(--thm-font);
+    font-size: 23px;
+    color: #117ba7;
+    text-align: center;
+    margin: 15px auto 10px;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message h5{
+    font-family: var(--thm-font);
+    font-size: 22px;
+    color: #1284b3;
+    text-align: center;
+    margin: 0px auto 45px;
+    line-height: 32px;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message p{
+    font-family: var(--thm-font);
+    font-size: 22px;
+    color: #222429;
+    text-align: right;
+    line-height: 37px;
+    width: 97%;
+    margin: 0px auto 20px;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message .boss-p p {
+    font-size: 21px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-message img {
+    width: 100%;
+    margin-top: 0px;
+    height: 315px;
+}
+.autism-page .autism-details .tab-content .tab-pane .boss-img h5{
+    font-size: 23px;
+    margin: -15px auto 45px;
+    line-height: 35px;
+}
+.autism-page .autism-details .tab-content .tab-pane .board-members{
+    width: 95%;
+    margin:40px auto;
+}
+.autism-page .autism-details .tab-content .tab-pane .board-members h4{
+    font-family: var(--thm-font);
+    font-size: 26px;
+    color: #117ba7;
+    text-align: right;
+    margin: 15px 15px 13px;
+}
+.autism-page .autism-details .tab-content .tab-pane .board-members p{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #222429;
+    text-align: right;
+    line-height: 34px;
+    width: 95%;
+    margin: 0px 13px 9px;
+}
+.autism-page .autism-details .tab-content .tab-pane .member-board ul li{
+    display: block;
+    margin-bottom: 50px;
+}
+.autism-page .autism-details .tab-content .tab-pane .member-board h5{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #f5f5f5;
+    background: #117ba7;
+    text-align: center;
+    width: 89%;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px auto 5px;
+}
+.autism-page .autism-details .tab-content .tab-pane .member-board h4{
+    font-family: var(--thm-font);
+    font-size: 18px;
+    color: #222429;
+    text-align: center;
+    margin: 15px auto 13px;
+}
